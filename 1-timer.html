@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/node_modules/simplelightbox/dist/simple-lightbox.min.css"/>
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Countdown Timer</h1>
+      <div class="input-container">
+        <input
+          type="text"
+          id="datetime-picker"
+          placeholder="Select a date and time"
+        />
+        <button type="button" data-start disabled>Start</button>
+      </div>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+
+      <button class="home-button" onclick="window.location.href = 'index.html'">
+        Home
+      </button>
+    </div>
+
+    <script type="module" src="/src/js/1-timer.js"></script>
+  </body>
+</html>

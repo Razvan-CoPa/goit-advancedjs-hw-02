@@ -1,0 +1,184 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f9f9f9;
+color: #333;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------FEEDBACK FORM-------------------------- */
+#f-form {
+margin: 0%;
+padding: 0%;
+}
+
+.feedback {
+background: url(/src/img/form-bkg-img.jpg) no-repeat center;
+background-size: cover;
+padding: 66.5px 0;
+}
+
+.feedback h1{
+text-align: center;
+color: #fff;
+text-shadow: 0 0 5px #2004ad,
+0 0 10px #fff, 0 0 15px #0073e6,
+0 0 20px #0073e6, 0 0 25px #0073e6,
+0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+#feedback-form{
+max-width: 600px;
+margin: auto;
+padding: 0 10px;
+overflow: hidden;
+}
+
+.feedback-form-text{
+border-radius: 8px;
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 16px 0;
+border: 0;
+outline: none;
+background: #151515;
+padding: 20px 40px;
+color: #ddd;
+transition: 0.5s;
+}
+
+.feedback-form-text:hover{
+box-shadow: 0 0 10px 2px #4848f6;
+}
+
+textarea.feedback-form-text{
+resize: none;
+}
+
+.form-btn{
+border: 0;
+background: #2e099b;
+color: #fff;
+margin: 10px;
+padding: 12px 50px;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.5s;
+outline: none;
+}
+
+.form-btn:hover{
+background: #393feb;
+box-shadow: 0 0 10px 2px #4848f6;
+}
+
+
+
+
+
+
+
+/* --------------------------------- INDEX ------------------------------------ */
+#home-index {
+margin: 0%;
+padding: 0%;
+}
+
+.home-box {
+background: url(/src/img/index-bkg-img.jpg) no-repeat center;
+background-size: cover;
+padding: 289.3px 0;
+}
+
+#timerBt{
+border: 0;
+background: #2e099b;
+color: #fff;
+margin: 10px;
+padding: 12px 50px;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.5s;
+outline: none;
+}
+
+#timerBt:hover{
+background: #393feb;
+box-shadow: 0 0 10px 2px #4848f6;
+}
+
+#snackBt{
+border: 0;
+background: #2e099b;
+color: #fff;
+margin: 10px;
+padding: 12px 50px;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.5s;
+outline: none;
+}
+
+#snackBt:hover{
+background: #393feb;
+box-shadow: 0 0 10px 2px #4848f6;
+}
+
+
+
+
+
+
+
+/* ------------------------------------ COUNTDOWN ------------------------------ */
+#gallery {
+background: url(/src/img/gallery-bkg-img.jpg) no-repeat center;
+background-size: cover;
+}
+
+.gallery {
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+list-style: none;
+}
+
+.gallery-item {
+flex-basis: calc(33.333% - 15px);
+max-width: calc(33.333% - 15px);
+}
+
+.gallery-link {
+display: block;
+}
+
+.gallery-image {
+width: 100%;
+height: auto;
+display: block;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+cursor: pointer;
+}
+
+.gallery-image:hover {
+transform: scale(1.05);
+box-shadow: 0 0 10px 2px #4848f6;
+}
